@@ -1,4 +1,4 @@
-FROM ubuntu:14.04 
+FROM ubuntu:14.04  
 RUN echo 'deb http://us.archive.ubuntu.com/ubuntu/ trusty universe' >> /etc/apt/sources.list
 
 RUN apt-get update && apt-get -y install libfontconfig wget adduser
